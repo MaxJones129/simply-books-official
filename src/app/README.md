@@ -29,3 +29,6 @@ https://www.loom.com/share/c1d6577692bb4033b991607e74b659a5?sid=4dedca01-c364-4e
 
 **`Link To Site`**
 https://simplybooksmj.netlify.app
+
+**`Link To Postman`**
+https://crimson-rocket-847800.postman.co/workspace/New-Team-Workspace~cbad8256-819f-4b9b-b91e-1ba2a390b19d/request/36583951-79d2a7ad-c95c-4aa7-8e98-5bd016fbe64e
