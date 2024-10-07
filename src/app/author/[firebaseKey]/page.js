@@ -15,13 +15,15 @@ export default function ViewAuthor({ params }) {
   // make call to API layer to get the data
   useEffect(() => {
     viewAuthorDetails(firebaseKey).then(setAuthorDetails);
+    // console.log(viewAuthorDetails(firebaseKey));
     getAuthorBooks(firebaseKey).then(setBooks);
+    // console.log(getAuthorBooks(firebaseKey));
     console.log(getAuthorBooks(firebaseKey));
   }, [firebaseKey]);
 
   const getSpecificBooks = () => {
     getAuthorBooks(firebaseKey).then(setBooks);
-    console.log(getAuthorBooks);
+    console.log(getAuthorBooks(firebaseKey));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   };
 
